@@ -2,7 +2,7 @@ import sqlite3
 db = sqlite3.connect("WebChatDB.db", isolation_level=None)
 c = db.cursor()
 
-#usertable作成
+#usertable作成.
 sql = """
     CREATE TABLE usertable (
         name VARCHAR(30),
